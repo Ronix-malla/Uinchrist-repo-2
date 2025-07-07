@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Solution</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+</head>
+<body>
+    <?php
+    include 'Layout/header.php';
+    ?> 
+
+     <section class="hero-banner">
+      <!-- hero description -->
+      <div class="hero-description">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-12 text-md-start text-center">
+              <h1 class="hero-title">
+                Build your dream <span>Web</span> and
+                <span>Mobile</span> applications
+              </h1>
+              <p class="hero-description">
+                Empowering enterprises <br />
+                with cutting-edge software solutions.
+              </p>
+
+              <button class="secondary-btn">
+                Read More
+                <img src="assets/right-arrow.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- email field -->
+      <div class="overflow-hidden d-none d-md-block">
+        <div class="input-container">
+          <input
+            type="email"
+            placeholder="Email.."
+            class="input-field"
+            required
+          />
+          <button>JOIN</button>
+        </div>
+      </div>
+
+      <!-- down arrow -->
+      <div class="arrow-container">
+        <img src="assets/down-arrow.png" alt="" />
+      </div>
+    </section>
+
+
+    <main>
+ <!-- about section -->
+    <section class="about">
+      <img src="assets/backgroundUShape.png" alt="" class="background-1" />
+      <img src="assets/backgroundUShape.png" alt="" class="background-2" />
+      <div class="container">
+        <div class="row hidden-1">
+          <div class="col-md-6 order-md-1 order-2">
+            <div class="top-title">
+              <p>ABOUT US</p>
+            </div>
+            <div class="description-container">
+              <h2>Empowering Ideas With <span>Technology</span></h2>
+              <p>
+                We’re a passionate team of developers, and problem-solvers
+                dedicated to building intelligent software that drives
+                real-world impact. With a focus on simplicity, performance, and
+                innovation, we partner with businesses to turn complex
+                challenges into elegant digital solutions.
+              </p>
+            </div>
+
+            <div class="primary-btn">
+              <a href="#"
+                >LEARN MORE
+                <img src="assets/right-arrow.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-2 order-1 mb-5">
+            <div class="about-image">
+              <img src="assets/about-1.jpg" alt="" />
+              <img src="assets/about-2.jpg" alt="" class="d-none d-md-block" />
+            </div>
+            <div class="background-grid-1 d-none d-lg-block">
+              <img src="assets/grid.png" alt="" />
+              <img src="assets/grid.png" alt="" />
+            </div>
+            <div class="background-grid-2 d-none d-lg-block">
+              <img src="assets/grid.png" alt="" />
+              <img src="assets/grid.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our features -->
+    <section class="features">
+      <img src="assets/backgroundUShape.png" alt="" class="background-1" />
+      <img src="assets/background-btm.png" alt="" class="background-2" />
+      <div class="container hidden-1">
+        <div class="top-title top-title-center">
+          <p>FEATURES</p>
+        </div>
+        <div
+          class="description-container section-title d-flex justify-content-center"
+        >
+          <h2>Our <span>Feature</span></h2>
+        </div>
+
+        <div class="row">
+          <!-- card 1 -->
+          <div class="col-md-6">
+            <div class="hidden-2 delay1">
+              <div class="feature-card d-flex">
+                <div class="feature-number">1</div>
+                <div class="feature-card-img">
+                  <img src="assets/feature-1.png" alt="" />
+                </div>
+                <div class="feature-description">
+                  <h3>UX/ UI First</h3>
+                  <p>
+                    Every pixel crafted with intention. Our design-first
+                    approach ensures exceptional user experiences that convert
+                    visitors into loyal customers through intuitive interfaces
+                    and seamless interactions.
+                  </p>
+                  <div class="link">
+                    <a href="#">
+                      Learn more
+                      <img src="assets/→.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-md-6">
+            <div class="hidden-2 delay2">
+              <div class="feature-card d-flex">
+                <div class="feature-number">2</div>
+                <div class="feature-card-img">
+                  <img src="assets/feature-2.png" alt="" />
+                </div>
+                <div class="feature-description">
+                  <h3>Scalable</h3>
+                  <p>
+                    Built to grow with your business. Our robust architecture
+                    handles everything from startup MVPs to enterprise-level
+                    applications, ensuring consistent performance at any scale.
+                  </p>
+                  <div class="link">
+                    <a href="#">
+                      Learn more
+                      <img src="assets/→.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-md-6">
+            <div class="hidden-2 delay3">
+              <div class="feature-card d-flex">
+                <div class="feature-number">3</div>
+                <div class="feature-card-img">
+                  <img src="assets/feature-3.png" alt="" />
+                </div>
+                <div class="feature-description">
+                  <h3>Security</h3>
+                  <p>
+                    Enterprise-grade protection built in. From data encryption
+                    to secure authentication, we implement industry-leading
+                    security practices to keep your business and users safe.
+                  </p>
+                  <div class="link">
+                    <a href="#">
+                      Learn more
+                      <img src="assets/→.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-md-6">
+            <div class="hidden-2 delay4">
+              <div class="feature-card d-flex">
+                <div class="feature-number">4</div>
+                <div class="feature-card-img">
+                  <img src="assets/feature-4.png" alt="" />
+                </div>
+                <div class="feature-description">
+                  <h3>Integration</h3>
+                  <p>
+                    Seamlessly connect with your existing tools. Our flexible
+                    API architecture and extensive integration library ensure
+                    smooth workflows across your entire tech stack.
+                  </p>
+                  <div class="link">
+                    <a href="#">
+                      Learn more
+                      <img src="assets/→.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="primary-btn d-flex justify-content-end mt-5">
+          <a href="#"
+            >LEARN MORE
+            <img src="assets/right-arrow.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- our services -->
+    <section class="services">
+      <img src="assets/backgroundUShape.png" alt="" class="background-1" />
+      <img src="assets/wavy-background.png" alt="" class="background-2" />
+      <div class="container hidden-1">
+        <div class="row">
+          <div class="col-md-7 col-12 order-md-1 order-2">
+            <div class="service-container">
+              <div class="service-col-1">
+                <!-- card 1 -->
+                <div class="hidden-2 delay1">
+                  <div class="service-card">
+                    <div class="service-card-img">
+                      <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <div class="service-description">
+                      <h3>Digital <span> Marketing</span></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?
+                      </p>
+                    </div>
+                    <div class="link-arrow">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="hidden-2 delay3">
+                  <div class="service-card">
+                    <div class="service-card-img">
+                      <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <div class="service-description">
+                      <h3>UI/ UX <span> Designing</span></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?
+                      </p>
+                    </div>
+                    <div class="link-arrow">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service-col-2 mt-md-5 mt-0">
+                <!-- card 1 -->
+                <div class="hidden-2 delay2">
+                  <div class="service-card">
+                    <div class="service-card-img">
+                      <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <div class="service-description">
+                      <h3>Product <span> Development</span></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?
+                      </p>
+                    </div>
+                    <div class="link-arrow">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="hidden-2 delay4">
+                  <div class="service-card">
+                    <div class="service-card-img">
+                      <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <div class="service-description">
+                      <h3>Data <span> Analysis</span></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?
+                      </p>
+                    </div>
+                    <div class="link-arrow">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-5 col-12 d-flex align-items-center justify-content-end order-md-2 order-1 mb-md-0 mb-5"
+          >
+            <div class="service-information">
+              <img src="assets/curvyarrow.png" alt="" />
+              <div class="top-title-right d-flex justify-content-end">
+                <p>OUR SERVICES</p>
+              </div>
+              <div class="description-container text-end">
+                <h2>Best IT Solution For Your <span>Business</span></h2>
+                <p>
+                  We are a modern software design studio specializing in
+                  intuitive and impactful user interfaces.
+                </p>
+              </div>
+
+              <div class="primary-btn d-flex justify-content-end">
+                <a href="#"
+                  >EXPLORE
+                  <img src="assets/right-arrow.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- achievements -->
+    <section class="achievement">
+      <div class="circle-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <img src="assets/right-bg.png" alt="" class="background-1" />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="left-show">
+              <div class="top-title">
+                <p>ACHIEVEMENTS</p>
+              </div>
+              <div class="description-container">
+                <h2>Some Number of our <span>Achievements</span></h2>
+                <p>
+                  We’re a passionate team of developers, and problem-solvers
+                  dedicated to building intelligent software that drives
+                  real-world impact. With a focus on simplicity, performance,
+                  and innovation, we partner with businesses to turn complex
+                  challenges into elegant digital solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="right-show">
+              <div class="row">
+                <div class="blur-circle d-none d-lg-block"></div>
+                <!-- card 1 -->
+                <div class="col-md-6 text-center">
+                  <div class="ach-card mb-4">
+                    <div class="ach-img-container">
+                      <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <div class="ach-description">
+                      <h4>2,334</h4>
+                      <p>Satisfied Customers</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-md-6 text-center">
+                  <div class="ach-card mb-4">
+                    <div class="ach-img-container">
+                      <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="ach-description">
+                      <h4>190 +</h4>
+                      <p>Awards Win</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-md-6 text-center">
+                  <div class="ach-card mb-4 mb-md-0">
+                    <div class="ach-img-container">
+                      <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="ach-description">
+                      <h4>90 +</h4>
+                      <p>Team Members</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- card 4 -->
+                <div class="col-md-6 text-center">
+                  <div class="ach-card mb-4 mb-md-0">
+                    <div class="ach-img-container">
+                      <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="ach-description">
+                      <h4>2,334</h4>
+                      <p>Projects Completed</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team section -->
+    <section class="team">
+      <img src="assets/top-bg.png" alt="" class="background-1" />
+      <img src="assets/top-bg.png" alt="" class="background-2" />
+      <div class="container hidden-1">
+        <div class="top-title top-title-center">
+          <p>OUR TEAM</p>
+        </div>
+        <div class="description-container text-center section-title">
+          <h2>Meet our <span>Expert</span> Team</h2>
+          <p>
+            We are a modern software design studio specializing in intuitive and
+            impactful user interfaces.
+          </p>
+        </div>
+
+        <div class="row">
+          <!-- card 1 -->
+          <div class="col-md-3 col-sm-5 mb-5 mb-md-0">
+            <div class="team-card">
+              <img src="assets/teamicon.png" class="bg" alt="" />
+              <div class="team-img">
+                <img src="assets/team-1.jpg" alt="" />
+              </div>
+              <div class="info d-flex">
+                <div class="detail">
+                  <h4>John Doe</h4>
+                  <p>Web Developer</p>
+                </div>
+                <div class="share-btn align-self-end ms-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-md-3 col-sm-5 mb-5 mb-md-0">
+            <div class="team-card">
+              <img src="assets/teamicon.png" class="bg" alt="" />
+              <div class="team-img">
+                <img src="assets/team-2.jpg" alt="" />
+              </div>
+              <div class="info d-flex">
+                <div class="detail">
+                  <h4>John Doe</h4>
+                  <p>Web Developer</p>
+                </div>
+                <div class="share-btn align-self-end ms-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-md-3 col-sm-5">
+            <div class="team-card">
+              <img src="assets/teamicon.png" class="bg" alt="" />
+              <div class="team-img">
+                <img src="assets/team-3.jpg" alt="" />
+              </div>
+              <div class="info d-flex">
+                <div class="detail">
+                  <h4>John Doe</h4>
+                  <p>Web Developer</p>
+                </div>
+                <div class="share-btn align-self-end ms-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blog ps-lg-0 ps-3">
+      <img src="assets/backgroundUShape-50.png" alt="" class="background-1" />
+      <img src="assets/backgroundUShape.png" alt="" class="background-2" />
+      <div class="row hidden-1">
+        <div class="col-md-5 mb-4 mb-md-0">
+          <div class="top-title">
+            <p>BLOG</p>
+          </div>
+          <div class="description-container">
+            <h2>Design and Dev <span>Journal</span></h2>
+            <p class="mb-0">
+              Stay updated with the latest in UI trends, product design tips,
+              and digital innovation.
+            </p>
+            <p class="mt-0">
+              Explore expert tips, best practices, and trends in user interface
+              and experience design. From wireframes to pixel-perfect layouts,
+              this is where great design starts.
+            </p>
+          </div>
+
+          <div class="primary-btn">
+            <a href="#"
+              >VIEW ALL
+              <img src="assets/right-arrow.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="category-container">
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="btn-check"
+                autocomplete="off"
+              />
+              <label class="btn mb-2 category" for="btn-check">Design</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="btn-check2"
+                autocomplete="off"
+              />
+              <label class="btn mb-2 category" for="btn-check2"
+                >UI/UX Design</label
+              >
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="btn-check3"
+                autocomplete="off"
+              />
+              <label class="btn mb-2 category" for="btn-check3"
+                >Case Studies</label
+              >
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="btn-check4"
+                autocomplete="off"
+              />
+              <label class="btn mb-2 category" for="btn-check4">Tech</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="btn-check5"
+                autocomplete="off"
+              />
+              <label class="btn mb-2 category" for="btn-check5">Trends</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="btn-check6"
+                autocomplete="off"
+              />
+              <label class="btn mb-2 category" for="btn-check6"
+                >Accessibility & Ethics</label
+              >
+            </div>
+          </div>
+          <div class="collections mt-3">
+            <div class="row blog-container">
+              <div class="col-md-6">
+                <!-- first blog -->
+                <div class="blog-card">
+                  <div class="blog-img">
+                    <img src="assets/blog.jpg" alt="" />
+                  </div>
+                  <div class="blog-detail">
+                    <div class="blog-user-detail">
+                      <p>
+                        <img src="assets/user-icon.png" alt="" />
+                        Adam Smith
+                      </p>
+                      <p>
+                        <img src="assets/calendar-icon.png" alt="" />
+                        20 June 2025
+                      </p>
+                    </div>
+                    <div class="blog-description">
+                      <h4>Creative Design</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?......
+                      </p>
+                      <div class="link-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- first blog -->
+                <div class="blog-card">
+                  <div class="blog-img">
+                    <img src="assets/blog.jpg" alt="" />
+                  </div>
+                  <div class="blog-detail">
+                    <div class="blog-user-detail">
+                      <p>
+                        <img src="assets/user-icon.png" alt="" />
+                        Adam Smith
+                      </p>
+                      <p>
+                        <img src="assets/calendar-icon.png" alt="" />
+                        20 June 2025
+                      </p>
+                    </div>
+                    <div class="blog-description">
+                      <h4>Creative Design</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?......
+                      </p>
+                      <div class="link-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- first blog -->
+                <div class="blog-card">
+                  <div class="blog-img">
+                    <img src="assets/blog.jpg" alt="" />
+                  </div>
+                  <div class="blog-detail">
+                    <div class="blog-user-detail">
+                      <p>
+                        <img src="assets/user-icon.png" alt="" />
+                        Adam Smith
+                      </p>
+                      <p>
+                        <img src="assets/calendar-icon.png" alt="" />
+                        20 June 2025
+                      </p>
+                    </div>
+                    <div class="blog-description">
+                      <h4>Creative Design</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, quidem?......
+                      </p>
+                      <div class="link-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- enquiry -->
+    <section class="enquiry">
+      <div class="circle-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="container text-center text-white hidden-1">
+        <p>We are here to answer your questions 24/7</p>
+        <h3>Need for IT solution services?</h3>
+        <button class="secondary-btn">Contact With Us</button>
+      </div>
+    </section>
+    </main>
+
+
+
+    <?php
+    include 'Layout/footer.php'
+    ?>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
